@@ -70,7 +70,7 @@ const Book = () => {
     }
     setSubmitting(true);
     const lines = [
-      "*New Booking — Medvic Goodhealth*",
+      "*New Booking — Green Medical Diagnostics*",
       `Name: ${data.name}`,
       `Phone: ${data.phone}`,
       data.email && `Email: ${data.email}`,
@@ -92,9 +92,9 @@ const Book = () => {
   return (
     <Layout>
       <SEO
-        title="Book a Lab Test | Medvic Goodhealth Port Harcourt"
+        title="Book a Lab Test | Green Medical Diagnostics Port Harcourt"
         description="Book a confidential lab test or request home sample collection in Port Harcourt. Choose your test, pick a time, and we’ll handle the rest — privately and professionally."
-        keywords="book lab test Port Harcourt, schedule blood test, home sample pickup Nigeria, Medvic Goodhealth booking"
+        keywords="book lab test Port Harcourt, schedule blood test, home sample pickup Nigeria, Green Medical Diagnostics booking"
       />
       <PageHeader
         eyebrow="Book a Test"

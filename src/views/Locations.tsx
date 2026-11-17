@@ -6,17 +6,17 @@ import { SITE, buildWhatsAppLink } from "@/lib/site";
 import { SEO } from "@/components/seo/SEO";
 
 const Locations = () => {
-  const mapQuery = encodeURIComponent("Plot 1 Road 4 Udo Layout Rumuokwachi Port Harcourt Rivers State Nigeria");
+  const mapQuery = encodeURIComponent("Plot 1 Road 4 Udo Layout Elioprawo, Port Harcourt Rivers State Nigeria");
   return (
     <Layout>
       <SEO
-        title="Our Location | Medvic Goodhealth Lab, Rumuokwachi Port Harcourt"
-        description="Visit Medvic Goodhealth Medical Laboratory at Plot 1, Road 4, Udo Layout, Rumuokwachi, Port Harcourt. Walk-ins welcome. Home sample collection available across Port Harcourt."
-        keywords="medical lab Rumuokwachi, lab near me Port Harcourt, Udo Layout laboratory, St Philip Filling Station lab"
+        title="Our Location | Green Medical Diagnostics Lab, Elioprawo, Port Harcourt"
+        description="Visit Green Medical Diagnostics and Services at 5 Elioprawo Road, by Big Tree Junction, Port Harcourt. Walk-ins welcome. Home sample collection available across Port Harcourt."
+        keywords="medical lab Elioprawo, lab near me Port Harcourt, Udo Layout laboratory, St Philip Filling Station lab"
       />
       <PageHeader
         eyebrow="Our Location"
-        title="Visit us in Rumuokwachi, Port Harcourt."
+        title="Visit us in Elioprawo Road, Port Harcourt."
         subtitle="Conveniently located beside St. Philip Filling Station. Walk-ins welcome — or request home sample pickup anywhere within Port Harcourt."
       />
 
@@ -24,7 +24,7 @@ const Locations = () => {
         <div className="container grid lg:grid-cols-2 gap-10 items-stretch">
           <div className="rounded-3xl overflow-hidden border border-border shadow-soft min-h-[420px]">
             <iframe
-              title="Medvic Goodhealth location map"
+              title="Green Medical Diagnostics location map"
               src={`https://www.google.com/maps?q=${mapQuery}&output=embed`}
               className="w-full h-full min-h-[420px]"
               loading="lazy"
@@ -70,7 +70,7 @@ const Locations = () => {
               <h3 className="font-display font-bold text-lg mb-2">Need a home pickup?</h3>
               <p className="text-primary-foreground/85 text-sm mb-4">We collect samples across Port Harcourt with full discretion.</p>
               <Button asChild variant="accent">
-                <a href={buildWhatsAppLink("Hello Medvic, I'd like to request a home sample pickup.")} target="_blank" rel="noreferrer">
+                <a href={buildWhatsAppLink("Hello Green Medical, I'd like to request a home sample pickup.")} target="_blank" rel="noreferrer">
                   <MessageCircle className="h-4 w-4" /> Request Pickup
                 </a>
               </Button>

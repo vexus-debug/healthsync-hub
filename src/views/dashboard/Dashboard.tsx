@@ -147,7 +147,7 @@ const Dashboard = () => {
         <div className="relative flex flex-wrap items-end justify-between gap-3">
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-foreground/70">
-              Medvic Goodhealth · Lab Operations
+              Green Medical Diagnostics · Lab Operations
             </p>
             <h1 className="mt-1 text-2xl sm:text-3xl font-extrabold">
               Welcome back, {displayName}

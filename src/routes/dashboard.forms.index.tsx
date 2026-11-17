@@ -5,10 +5,10 @@ import TestFormsPage from "@/views/dashboard/TestForms";
 export const Route = createFileRoute("/dashboard/forms/")({
   head: () => ({
     meta: [
-      { title: "Test Forms | Medvic Goodhealth" },
-      { name: "description", content: "Medvic Goodhealth staff area." },
-      { property: "og:title", content: "Test Forms | Medvic Goodhealth" },
-      { property: "og:description", content: "Medvic Goodhealth staff area." },
+      { title: "Test Forms | Green Medical Diagnostics" },
+      { name: "description", content: "Green Medical Diagnostics staff area." },
+      { property: "og:title", content: "Test Forms | Green Medical Diagnostics" },
+      { property: "og:description", content: "Green Medical Diagnostics staff area." },
       { name: "robots", content: "noindex" },
     ],
   }),

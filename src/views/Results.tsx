@@ -251,7 +251,7 @@ const Results = () => {
         pageIndex += 1;
       }
 
-      pdf.save(`Medvic-Result-${result.serial}.pdf`);
+      pdf.save(`GreenMedical-Result-${result.serial}.pdf`);
     } catch (err: any) {
       toast({ title: "Download failed", description: err.message ?? "Try again.", variant: "destructive" });
     } finally {
@@ -296,9 +296,9 @@ const Results = () => {
   return (
     <Layout>
       <SEO
-        title="Download Test Results | Medvic Goodhealth Lab"
-        description="Securely access your Medvic Goodhealth lab results using only your reference ID. View and download your confidential report instantly."
-        keywords="download lab results Port Harcourt, medical test results Nigeria, Medvic Goodhealth results"
+        title="Download Test Results | Green Medical Diagnostics Lab"
+        description="Securely access your Green Medical Diagnostics lab results using only your reference ID. View and download your confidential report instantly."
+        keywords="download lab results Port Harcourt, medical test results Nigeria, Green Medical Diagnostics results"
       />
 
       {/* Print: hide everything except the report */}
@@ -365,12 +365,12 @@ const Results = () => {
               <p className="text-sm text-muted-foreground">Lost your reference ID or need it sent another way?</p>
               <div className="flex flex-col gap-3">
                 <Button asChild variant="soft">
-                  <a href={buildWhatsAppLink("Hello Medvic, I'd like to retrieve my test result.")} target="_blank" rel="noreferrer">
+                  <a href={buildWhatsAppLink("Hello Green Medical, I'd like to retrieve my test result.")} target="_blank" rel="noreferrer">
                     <MessageCircle className="h-4 w-4" /> Request via WhatsApp
                   </a>
                 </Button>
                 <Button asChild variant="outline">
-                  <a href="mailto:info@medvicgoodhealth.com?subject=Result%20Request">
+                  <a href="mailto:greenlabs26@gmail.com?subject=Result%20Request">
                     <Mail className="h-4 w-4" /> Email Records Desk
                   </a>
                 </Button>

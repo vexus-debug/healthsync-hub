@@ -39,12 +39,12 @@ const stats = [
 const About = () => (
   <Layout>
     <SEO
-      title="About Medvic Goodhealth | MLSCN-Licensed Lab in Port Harcourt"
-      description="Learn about Medvic Goodhealth Medical Laboratory — our mission, accredited team and commitment to confidential, accurate diagnostic testing in Port Harcourt, Rivers State."
-      keywords="about Medvic Goodhealth, medical laboratory Port Harcourt, MLSCN licensed lab, ISO 15189 lab Nigeria, accredited medical lab Rivers State"
+      title="About Green Medical Diagnostics | MLSCN-Licensed Lab in Port Harcourt"
+      description="Learn about Green Medical Diagnostics and Services — our mission, accredited team and commitment to confidential, accurate diagnostic testing in Port Harcourt, Rivers State."
+      keywords="about Green Medical Diagnostics, medical laboratory Port Harcourt, MLSCN licensed lab, ISO 15189 lab Nigeria, accredited medical lab Rivers State"
     />
     <PageHeader
-      eyebrow="About Medvic Goodhealth"
+      eyebrow="About Green Medical Diagnostics"
       title="A trusted medical laboratory built on accuracy and discretion."
       subtitle="We are a licensed diagnostic laboratory and healthcare centre in Port Harcourt, providing reliable testing, qualified clinical oversight, and complete patient confidentiality."
     />
@@ -58,7 +58,7 @@ const About = () => (
             Clinical-grade diagnostics for the Port Harcourt community.
           </h2>
           <p className="text-muted-foreground leading-relaxed text-lg">
-            Medvic Goodhealth Medical Laboratory combines a fully equipped diagnostic laboratory with on-site clinical and pharmaceutical services. We support physicians, hospitals, and individual patients with timely, accurate results across haematology, microbiology, clinical chemistry, endocrinology, and fertility testing.
+            Green Medical Diagnostics and Services combines a fully equipped diagnostic laboratory with on-site clinical and pharmaceutical services. We support physicians, hospitals, and individual patients with timely, accurate results across haematology, microbiology, clinical chemistry, endocrinology, and fertility testing.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             Every sample is handled by trained medical laboratory scientists under strict quality-control protocols, with reports reviewed before release. Our facility is built around two priorities that matter most in diagnostics — clinical precision and patient confidentiality.

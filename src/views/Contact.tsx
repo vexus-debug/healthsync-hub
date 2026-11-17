@@ -38,9 +38,9 @@ const Contact = () => {
   return (
     <Layout>
       <SEO
-        title="Contact Medvic Goodhealth Lab | Port Harcourt"
-        description="Get in touch with Medvic Goodhealth Medical Laboratory in Rumuokwachi, Port Harcourt. Call, WhatsApp or email us to book tests, request home pickup or ask questions."
-        keywords="contact Medvic Goodhealth, medical lab Port Harcourt phone, lab WhatsApp Nigeria, book lab test Rivers State"
+        title="Contact Green Medical Diagnostics Lab | Port Harcourt"
+        description="Get in touch with Green Medical Diagnostics and Services in Elioprawo Road, Port Harcourt. Call, WhatsApp or email us to book tests, request home pickup or ask questions."
+        keywords="contact Green Medical Diagnostics, medical lab Port Harcourt phone, lab WhatsApp Nigeria, book lab test Rivers State"
       />
       <PageHeader
         eyebrow="Contact Us"
@@ -108,7 +108,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <a href={buildWhatsAppLink("Hello Medvic, I'd like to make an enquiry.")} target="_blank" rel="noreferrer" className="block rounded-2xl p-5 bg-gradient-accent text-accent-foreground shadow-soft hover:shadow-elegant transition-smooth">
+            <a href={buildWhatsAppLink("Hello Green Medical, I'd like to make an enquiry.")} target="_blank" rel="noreferrer" className="block rounded-2xl p-5 bg-gradient-accent text-accent-foreground shadow-soft hover:shadow-elegant transition-smooth">
               <div className="flex items-center gap-3">
                 <MessageCircle className="h-6 w-6" />
                 <div>

@@ -4,10 +4,10 @@ import LocationsPage from "@/views/Locations";
 export const Route = createFileRoute("/locations")({
   head: () => ({
     meta: [
-      { title: "Locations | Medvic Goodhealth" },
-      { name: "description", content: "Find Medvic Goodhealth laboratory locations in Port Harcourt." },
-      { property: "og:title", content: "Locations | Medvic Goodhealth" },
-      { property: "og:description", content: "Find Medvic Goodhealth laboratory locations in Port Harcourt." },
+      { title: "Locations | Green Medical Diagnostics" },
+      { name: "description", content: "Find Green Medical Diagnostics laboratory locations in Port Harcourt." },
+      { property: "og:title", content: "Locations | Green Medical Diagnostics" },
+      { property: "og:description", content: "Find Green Medical Diagnostics laboratory locations in Port Harcourt." },
     ],
   }),
   component: LocationsPage,

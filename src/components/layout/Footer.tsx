@@ -9,7 +9,7 @@ export const Footer = () => {
       <div className="container py-16 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
         <div className="space-y-4">
           <div className="bg-background rounded-2xl p-4 inline-block">
-            <img src={logo} alt="Medvic Goodhealth" className="h-28 w-auto" />
+            <img src={logo} alt="Green Medical Diagnostics" className="h-28 w-auto" />
           </div>
           <p className="text-sm leading-relaxed text-primary-foreground/85">
             {SITE.tagline} Confidential, professional medical laboratory & healthcare services in Port Harcourt.
@@ -44,7 +44,7 @@ export const Footer = () => {
             </li>
             <li>
               <a
-                href={buildWhatsAppLink("Hello Medvic Goodhealth, I'd like to make an enquiry.")}
+                href={buildWhatsAppLink("Hello Green Medical Diagnostics, I'd like to make an enquiry.")}
                 target="_blank" rel="noreferrer"
                 className="inline-flex items-center gap-2 mt-2 px-4 py-2 rounded-full bg-background/15 hover:bg-background/25 transition-smooth"
               >

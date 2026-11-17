@@ -131,9 +131,9 @@ const Index = () => {
   return (
     <Layout>
       <SEO
-        title="Medvic Goodhealth — Confidential Medical Laboratory in Port Harcourt"
-        description="MLSCN-licensed medical laboratory in Rumuokwachi, Port Harcourt offering confidential lab tests, consultations, pharmacy and home sample collection. Your Health. Your Privacy. Your Choice."
-        keywords="medical laboratory Port Harcourt, lab tests Rivers State, confidential lab Nigeria, blood test Port Harcourt, home sample collection, Medvic Goodhealth"
+        title="Green Medical Diagnostics — Confidential Medical Laboratory in Port Harcourt"
+        description="MLSCN-licensed medical laboratory in Elioprawo Road, Port Harcourt offering confidential lab tests, consultations, pharmacy and home sample collection. Your Health. Your Privacy. Your Choice."
+        keywords="medical laboratory Port Harcourt, lab tests Rivers State, confidential lab Nigeria, blood test Port Harcourt, home sample collection, Green Medical Diagnostics"
       />
       {/* 1. HERO — clinical, full-bleed, calm */}
       <section className="relative isolate overflow-hidden bg-background">
@@ -166,7 +166,7 @@ const Index = () => {
             </h1>
 
             <p className="text-base md:text-lg text-primary-foreground/85 max-w-2xl leading-relaxed">
-              Medvic Goodhealth is a full-service medical laboratory in Port Harcourt — delivering accurate results, qualified clinicians, and complete confidentiality at every step.
+              Green Medical Diagnostics is a full-service medical laboratory in Port Harcourt — delivering accurate results, qualified clinicians, and complete confidentiality at every step.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">
@@ -183,12 +183,12 @@ const Index = () => {
                 <Phone className="h-4 w-4" /> {SITE.phones[0]}
               </a>
               <span className="h-4 w-px bg-white/20 hidden sm:block" />
-              <a href={buildWhatsAppLink("Hello Medvic, I'd like to book a test.")} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-primary-foreground">
+              <a href={buildWhatsAppLink("Hello Green Medical, I'd like to book a test.")} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-primary-foreground">
                 <MessageCircle className="h-4 w-4" /> WhatsApp
               </a>
               <span className="h-4 w-px bg-white/20 hidden sm:block" />
               <span className="inline-flex items-center gap-2">
-                <MapPin className="h-4 w-4" /> Rumuokwachi, Port Harcourt
+                <MapPin className="h-4 w-4" /> Elioprawo Road, Port Harcourt
               </span>
             </div>
           </div>
@@ -224,7 +224,7 @@ const Index = () => {
                 A standardised pathway from request to verified report.
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Every sample at Medvic Goodhealth follows a documented, ISO-aligned workflow — handled by qualified medical scientists and reviewed by consultant pathologists before release.
+                Every sample at Green Medical Diagnostics follows a documented, ISO-aligned workflow — handled by qualified medical scientists and reviewed by consultant pathologists before release.
               </p>
               <div className="flex flex-wrap items-center gap-2 pt-2">
                 <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-primary-soft text-primary text-xs font-semibold">
@@ -284,7 +284,7 @@ const Index = () => {
       <section className="py-20 md:py-28 border-y border-border bg-muted/30">
         <div className="container">
           <Reveal variant="up" className="max-w-3xl mb-14">
-            <span className="text-xs font-semibold text-primary uppercase tracking-widest">Why choose Medvic Goodhealth</span>
+            <span className="text-xs font-semibold text-primary uppercase tracking-widest">Why choose Green Medical Diagnostics</span>
             <h2 className="font-display text-3xl md:text-4xl font-bold leading-tight mt-3 text-foreground">
               Diagnostics built on clinical precision and patient confidentiality.
             </h2>
@@ -487,7 +487,7 @@ const Index = () => {
               All tests reviewed and signed off by consultant pathologists prior to release.
             </p>
             <a
-              href={buildWhatsAppLink("Hello Medvic, I'd like to enquire about a test not listed.")}
+              href={buildWhatsAppLink("Hello Green Medical, I'd like to enquire about a test not listed.")}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-1.5 font-semibold text-primary hover:underline"
@@ -519,7 +519,7 @@ const Index = () => {
                   <Link to="/book"><Home className="h-4 w-4" /> Request Pickup</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="bg-transparent border-white/40 text-primary-foreground hover:bg-white/10 hover:text-primary-foreground">
-                  <a href={buildWhatsAppLink("Hello Medvic, I'd like to schedule a home sample pickup.")} target="_blank" rel="noreferrer">
+                  <a href={buildWhatsAppLink("Hello Green Medical, I'd like to schedule a home sample pickup.")} target="_blank" rel="noreferrer">
                     <MessageCircle className="h-4 w-4" /> WhatsApp clinician
                   </a>
                 </Button>
@@ -595,8 +595,8 @@ const Index = () => {
           <div className="grid lg:grid-cols-3 gap-6">
             <div className="lg:col-span-2 relative rounded-[2.5rem] overflow-hidden border border-border shadow-soft min-h-[360px] bg-background">
               <iframe
-                title="Medvic Goodhealth location"
-                src="https://www.google.com/maps?q=Rumuokwachi,+Port+Harcourt&output=embed"
+                title="Green Medical Diagnostics location"
+                src="https://www.google.com/maps?q=Elioprawo,+Port+Harcourt&output=embed"
                 className="absolute inset-0 w-full h-full"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -635,7 +635,7 @@ const Index = () => {
                   ))}
                 </ul>
                 <Button asChild variant="accent" className="mt-4 w-full">
-                  <a href={buildWhatsAppLink("Hello Medvic, I have a question.")} target="_blank" rel="noreferrer">
+                  <a href={buildWhatsAppLink("Hello Green Medical, I have a question.")} target="_blank" rel="noreferrer">
                     <MessageCircle className="h-4 w-4" /> Chat on WhatsApp
                   </a>
                 </Button>

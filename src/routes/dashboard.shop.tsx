@@ -5,10 +5,10 @@ import ShopAdminPage from "@/views/dashboard/ShopAdmin";
 export const Route = createFileRoute("/dashboard/shop")({
   head: () => ({
     meta: [
-      { title: "Shop Admin | Medvic Goodhealth" },
-      { name: "description", content: "Medvic Goodhealth staff area." },
-      { property: "og:title", content: "Shop Admin | Medvic Goodhealth" },
-      { property: "og:description", content: "Medvic Goodhealth staff area." },
+      { title: "Shop Admin | Green Medical Diagnostics" },
+      { name: "description", content: "Green Medical Diagnostics staff area." },
+      { property: "og:title", content: "Shop Admin | Green Medical Diagnostics" },
+      { property: "og:description", content: "Green Medical Diagnostics staff area." },
       { name: "robots", content: "noindex" },
     ],
   }),

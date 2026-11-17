@@ -4,10 +4,10 @@ import PharmacyPage from "@/views/Pharmacy";
 export const Route = createFileRoute("/pharmacy")({
   head: () => ({
     meta: [
-      { title: "Pharmacy | Medvic Goodhealth" },
-      { name: "description", content: "Medicines and pharmacy services from Medvic Goodhealth." },
-      { property: "og:title", content: "Pharmacy | Medvic Goodhealth" },
-      { property: "og:description", content: "Medicines and pharmacy services from Medvic Goodhealth." },
+      { title: "Pharmacy | Green Medical Diagnostics" },
+      { name: "description", content: "Medicines and pharmacy services from Green Medical Diagnostics." },
+      { property: "og:title", content: "Pharmacy | Green Medical Diagnostics" },
+      { property: "og:description", content: "Medicines and pharmacy services from Green Medical Diagnostics." },
     ],
   }),
   component: PharmacyPage,

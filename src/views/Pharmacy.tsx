@@ -42,7 +42,7 @@ const Pharmacy = () => {
   return (
     <Layout>
       <SEO
-        title="Pharmacy Department | Medvic Goodhealth"
+        title="Pharmacy Department | Green Medical Diagnostics"
         description="Browse commonly prescribed medications. Ask a physician or request a prescription via WhatsApp."
       />
       <PageHeader

@@ -15,7 +15,7 @@ export const ReportPreview = ({ form, values, scientistName, dynamicRows = [] }:
       <div className="px-6 py-4 border-b-4 border-primary bg-white" data-pdf-section="header">
         <div className="flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Medvic Goodhealth" className="h-16 w-auto" crossOrigin="anonymous" />
+            <img src={logo} alt="Green Medical Diagnostics" className="h-16 w-auto" crossOrigin="anonymous" />
             <div>
               <p className="text-[10px] uppercase tracking-[0.2em] text-primary font-semibold">{SITE.fullName}</p>
               <h2 className="text-base font-bold leading-tight text-slate-900">Medical Laboratory Report</h2>
@@ -25,7 +25,7 @@ export const ReportPreview = ({ form, values, scientistName, dynamicRows = [] }:
           </div>
           <div className="text-right text-[10px] text-slate-600 leading-snug max-w-[40%]">
             <p>Plot 1, Road 4, Udo Layout</p>
-            <p>Rumuokwachi, Port Harcourt</p>
+            <p>Elioprawo Road, Port Harcourt</p>
             <p className="font-medium text-slate-800">{SITE.phones[0]}</p>
             <p>{SITE.email}</p>
           </div>

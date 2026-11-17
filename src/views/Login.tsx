@@ -31,15 +31,15 @@ const Login = () => {
     <div className="min-h-screen flex items-center justify-center bg-muted/30 p-4">
       <Card className="w-full max-w-sm border-border/60 shadow-soft">
         <CardHeader className="text-center space-y-2">
-          <img src={logo} alt="Medvic Goodhealth Medical Laboratory" className="mx-auto h-32 w-auto" />
-          <CardTitle className="text-xl">Medvic Lab Dashboard</CardTitle>
+          <img src={logo} alt="Green Medical Diagnostics and Services" className="mx-auto h-32 w-auto" />
+          <CardTitle className="text-xl">Green Medical Lab Dashboard</CardTitle>
           <p className="text-sm text-muted-foreground">Sign in to access the scientist dashboard</p>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleLogin} className="space-y-4">
             <div>
               <Label>Email</Label>
-              <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@medvic.ng" required />
+              <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@greenmedical.ng" required />
             </div>
             <div>
               <Label>Password</Label>

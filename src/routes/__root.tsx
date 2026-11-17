@@ -64,9 +64,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Medvic Goodhealth — Confidential Medical Laboratory" },
+      { title: "Green Medical Diagnostics — Confidential Medical Laboratory" },
       { name: "description", content: "Confidential lab tests, consultations, pharmacy and home sample pickup in Port Harcourt." },
-      { name: "author", content: "Medvic Goodhealth Medical Laboratory" },
+      { name: "author", content: "Green Medical Diagnostics and Services" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

@@ -5,10 +5,10 @@ import PharmacyAdminPage from "@/views/dashboard/PharmacyAdmin";
 export const Route = createFileRoute("/dashboard/pharmacy")({
   head: () => ({
     meta: [
-      { title: "Pharmacy Admin | Medvic Goodhealth" },
-      { name: "description", content: "Medvic Goodhealth staff area." },
-      { property: "og:title", content: "Pharmacy Admin | Medvic Goodhealth" },
-      { property: "og:description", content: "Medvic Goodhealth staff area." },
+      { title: "Pharmacy Admin | Green Medical Diagnostics" },
+      { name: "description", content: "Green Medical Diagnostics staff area." },
+      { property: "og:title", content: "Pharmacy Admin | Green Medical Diagnostics" },
+      { property: "og:description", content: "Green Medical Diagnostics staff area." },
       { name: "robots", content: "noindex" },
     ],
   }),

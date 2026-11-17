@@ -5,10 +5,10 @@ import ManageTestsPage from "@/views/dashboard/ManageTests";
 export const Route = createFileRoute("/dashboard/manage-tests")({
   head: () => ({
     meta: [
-      { title: "Manage Tests | Medvic Goodhealth" },
-      { name: "description", content: "Medvic Goodhealth staff area." },
-      { property: "og:title", content: "Manage Tests | Medvic Goodhealth" },
-      { property: "og:description", content: "Medvic Goodhealth staff area." },
+      { title: "Manage Tests | Green Medical Diagnostics" },
+      { name: "description", content: "Green Medical Diagnostics staff area." },
+      { property: "og:title", content: "Manage Tests | Green Medical Diagnostics" },
+      { property: "og:description", content: "Green Medical Diagnostics staff area." },
       { name: "robots", content: "noindex" },
     ],
   }),

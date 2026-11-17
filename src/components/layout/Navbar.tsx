@@ -40,7 +40,7 @@ export const Navbar = () => {
     >
       <div className="container flex h-20 items-center justify-between">
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <img src={logo} alt="Medvic Goodhealth Medical Laboratory logo" className="h-20 md:h-28 w-auto" />
+          <img src={logo} alt="Green Medical Diagnostics and Services logo" className="h-20 md:h-28 w-auto" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">
@@ -87,7 +87,7 @@ export const Navbar = () => {
           <SheetContent side="right" className="w-[88vw] max-w-sm p-0 bg-background">
             <SheetHeader className="px-6 py-5 border-b border-border text-left">
               <SheetTitle className="flex items-center gap-2">
-                <img src={logo} alt="Medvic Goodhealth" className="h-14 w-auto" />
+                <img src={logo} alt="Green Medical Diagnostics" className="h-14 w-auto" />
               </SheetTitle>
               <p className="mt-3 text-xs font-semibold tracking-wide text-primary/80">
                 Your <span className="text-primary">HEALTH</span>. Your <span className="text-primary">PRIVACY</span>. Your <span className="text-primary">CHOICE</span>.
@@ -122,7 +122,7 @@ export const Navbar = () => {
                 <Phone className="h-4 w-4" /> {SITE.phones[0]}
               </a>
               <a
-                href={buildWhatsAppLink("Hello Medvic, I'd like to make an enquiry.")}
+                href={buildWhatsAppLink("Hello Green Medical, I'd like to make an enquiry.")}
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary"

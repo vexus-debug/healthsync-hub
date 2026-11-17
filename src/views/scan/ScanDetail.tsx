@@ -99,12 +99,12 @@ const ScanDetail = () => {
           </div>
           <div className="flex items-start gap-4">
             <div className="shrink-0 flex flex-col items-center">
-              <img src={logo} alt="Medvic Goodhealth" className="h-16 w-auto" crossOrigin="anonymous" />
+              <img src={logo} alt="Green Medical Diagnostics" className="h-16 w-auto" crossOrigin="anonymous" />
               <p className="text-[9px] text-primary mt-1 font-medium italic text-center">{SITE.tagline}</p>
             </div>
             <div className="w-px bg-primary self-stretch mx-1" />
             <div className="flex-1">
-              <h2 className="text-lg font-bold text-primary uppercase tracking-wide">Medvic Goodhealth Services</h2>
+              <h2 className="text-lg font-bold text-primary uppercase tracking-wide">Green Medical Diagnostics and Services</h2>
               <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mt-1.5 text-[10px] text-slate-700">
                 <span className="flex items-center gap-1"><Heart className="h-3 w-3 text-primary" /> Healthcare</span>
                 <span className="text-slate-300">|</span>
@@ -116,13 +116,13 @@ const ScanDetail = () => {
               </div>
               <div className="grid grid-cols-2 gap-x-4 gap-y-1 mt-2 text-[10px] text-slate-600">
                 <div className="flex items-center gap-1">
-                  <Globe className="h-3 w-3 text-primary shrink-0" /> <span>Website: medvic.com.ng</span>
+                  <Globe className="h-3 w-3 text-primary shrink-0" /> <span>Email: greenlabs26@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <Phone className="h-3 w-3 text-primary shrink-0" /> <span>Phone: {SITE.phones[0].replace(/\s/g, "")}</span>
                 </div>
                 <div className="flex items-start gap-1">
-                  <MapPin className="h-3 w-3 text-primary shrink-0 mt-0.5" /> <span>Address: Plot 1, Road 4, Udo Layout, Rumuokwachi</span>
+                  <MapPin className="h-3 w-3 text-primary shrink-0 mt-0.5" /> <span>Address: 5 Elioprawo Road, Big Tree Junction</span>
                 </div>
                 <div className="flex items-start gap-1">
                   <Clock className="h-3 w-3 text-primary shrink-0 mt-0.5" /> <span>Time of Service: Mon – Sat: 8:00 AM – 9:00 PM</span>

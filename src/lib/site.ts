@@ -1,11 +1,11 @@
 export const SITE = {
-  name: "Medvic Goodhealth",
-  fullName: "Medvic Goodhealth Medical Laboratory",
-  tagline: "Your HEALTH. Your PRIVACY. Your CHOICE.",
-  phones: ["+234 815 359 3469", "+234 813 558 1946"],
-  whatsapp: "2348153593469",
-  address: "Plot 1, Road 4, Udo Layout, Beside St. Philip Filling Station, Rumuokwachi, Port Harcourt, Rivers State, Nigeria",
-  email: "info@medvicgoodhealth.com",
+  name: "Green Medical Diagnostics",
+  fullName: "Green Medical Diagnostics and Services",
+  tagline: "Accurate Results. Better Health.",
+  phones: ["+234 706 767 6551", "+234 902 778 8925"],
+  whatsapp: "2347067676551",
+  address: "5 Elioprawo Road, opposite State Primary School, by Big Tree Junction, Port Harcourt, Rivers State, Nigeria",
+  email: "greenlabs26@gmail.com",
   rcNumber: "8993592",
   tin: "33691306-0001",
   hours: [
