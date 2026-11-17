@@ -6,18 +6,18 @@ import { SITE, buildWhatsAppLink } from "@/lib/site";
 import { SEO } from "@/components/seo/SEO";
 
 const Locations = () => {
-  const mapQuery = encodeURIComponent("Plot 1 Road 4 Udo Layout Elioprawo, Port Harcourt Rivers State Nigeria");
+  const mapQuery = encodeURIComponent("5 Elioprawo Road Big Tree Junction Port Harcourt Rivers State Nigeria");
   return (
     <Layout>
       <SEO
         title="Our Location | Green Medical Diagnostics Lab, Elioprawo, Port Harcourt"
         description="Visit Green Medical Diagnostics and Services at 5 Elioprawo Road, by Big Tree Junction, Port Harcourt. Walk-ins welcome. Home sample collection available across Port Harcourt."
-        keywords="medical lab Elioprawo, lab near me Port Harcourt, Udo Layout laboratory, St Philip Filling Station lab"
+        keywords="medical lab Elioprawo, lab near me Port Harcourt, Big Tree Junction laboratory, Elioprawo Road lab"
       />
       <PageHeader
         eyebrow="Our Location"
         title="Visit us in Elioprawo Road, Port Harcourt."
-        subtitle="Conveniently located beside St. Philip Filling Station. Walk-ins welcome — or request home sample pickup anywhere within Port Harcourt."
+        subtitle="Conveniently located opposite State Primary School by Big Tree Junction. Walk-ins welcome — or request home sample pickup anywhere within Port Harcourt."
       />
 
       <section className="py-16">
