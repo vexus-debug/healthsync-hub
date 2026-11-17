@@ -5,10 +5,10 @@ import DashboardSettingsPage from "@/views/dashboard/Settings";
 export const Route = createFileRoute("/dashboard/settings")({
   head: () => ({
     meta: [
-      { title: "Settings | Medvic Goodhealth" },
-      { name: "description", content: "Medvic Goodhealth staff area." },
-      { property: "og:title", content: "Settings | Medvic Goodhealth" },
-      { property: "og:description", content: "Medvic Goodhealth staff area." },
+      { title: "Settings | Green Medical Diagnostics" },
+      { name: "description", content: "Green Medical Diagnostics staff area." },
+      { property: "og:title", content: "Settings | Green Medical Diagnostics" },
+      { property: "og:description", content: "Green Medical Diagnostics staff area." },
       { name: "robots", content: "noindex" },
     ],
   }),

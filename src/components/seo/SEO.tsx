@@ -9,7 +9,7 @@ interface SEOProps {
   type?: string;
 }
 
-const SITE_URL = "https://medvicgoodhealth.com";
+const SITE_URL = "https://greenmedicaldiagnostics.com";
 const DEFAULT_IMAGE = "/og-image.png";
 
 const setMeta = (selector: string, attr: string, value: string) => {

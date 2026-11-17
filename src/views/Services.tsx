@@ -130,7 +130,7 @@ const standards = [
 const Services = () => (
   <Layout>
     <SEO
-      title="Lab Tests & Services | Medvic Goodhealth Port Harcourt"
+      title="Lab Tests & Services | Green Medical Diagnostics Port Harcourt"
       description="Haematology, Clinical Chemistry, Microbiology, Serology, Hormonal Assays, Histopathology and more. Detailed test panels, specimen requirements and turnaround times."
       keywords="lab tests Port Harcourt, full blood count, hormonal assay, microbiology test, histopathology Nigeria, fertility testing, medical fitness exam"
     />

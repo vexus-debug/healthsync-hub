@@ -419,8 +419,8 @@ export const MOCK_FORMS: TestForm[] = [
 ];
 
 export const SCIENTISTS = [
-  { id: "s1", name: "Sci. Obi Nnamdi", role: "Senior Lab Scientist", email: "obi@medvic.ng", active: true },
-  { id: "s2", name: "Sci. Ngozi Eze", role: "Lab Scientist", email: "ngozi@medvic.ng", active: true },
-  { id: "s3", name: "Sci. Daniel Ade", role: "Lab Scientist", email: "daniel@medvic.ng", active: true },
-  { id: "s4", name: "Sci. Halima Bako", role: "Junior Scientist", email: "halima@medvic.ng", active: false },
+  { id: "s1", name: "Sci. Obi Nnamdi", role: "Senior Lab Scientist", email: "obi@greenmedical.ng", active: true },
+  { id: "s2", name: "Sci. Ngozi Eze", role: "Lab Scientist", email: "ngozi@greenmedical.ng", active: true },
+  { id: "s3", name: "Sci. Daniel Ade", role: "Lab Scientist", email: "daniel@greenmedical.ng", active: true },
+  { id: "s4", name: "Sci. Halima Bako", role: "Junior Scientist", email: "halima@greenmedical.ng", active: false },
 ];

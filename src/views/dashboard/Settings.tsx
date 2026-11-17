@@ -22,10 +22,10 @@ const Settings = () => {
       <Card className="border-border/60 shadow-soft">
         <CardHeader><CardTitle className="text-base">Laboratory Profile</CardTitle></CardHeader>
         <CardContent className="space-y-4">
-          <div><Label>Lab Name</Label><Input defaultValue="Medvic Goodhealth Medical Laboratory" /></div>
-          <div><Label>Address</Label><Input defaultValue="Plot 1, Road 4 Udo Layout, Rumuopkarali Ext., PHC" /></div>
+          <div><Label>Lab Name</Label><Input defaultValue="Green Medical Diagnostics and Services" /></div>
+          <div><Label>Address</Label><Input defaultValue="5 Elioprawo Road, by Big Tree Junction, PHC" /></div>
           <div className="grid grid-cols-2 gap-3">
-            <div><Label>Primary Phone</Label><Input defaultValue="+234 813 558 1946" /></div>
+            <div><Label>Primary Phone</Label><Input defaultValue="+234 902 778 8925" /></div>
             <div><Label>Secondary</Label><Input defaultValue="+234 153 359 3469" /></div>
           </div>
         </CardContent>

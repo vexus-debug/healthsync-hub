@@ -101,30 +101,30 @@ export async function printTestForm(form: DbTestForm) {
   * { box-sizing: border-box; }
   body { font-family: 'Inter', system-ui, sans-serif; color: #1e293b; margin: 0; padding: 24px; font-size: 13px; }
   .wrap { max-width: 800px; margin: 0 auto; border: 1px solid #e5e0ec; border-radius: 12px; overflow: hidden; }
-  .head { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; border-bottom: 4px solid #6b21a8; gap: 16px; }
+  .head { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; border-bottom: 4px solid #166534; gap: 16px; }
   .head img { height: 64px; width: auto; }
-  .brand .name { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: #6b21a8; font-weight: 700; }
+  .brand .name { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: #166534; font-weight: 700; }
   .brand h1 { margin: 2px 0 0; font-size: 18px; color: #0f172a; font-family: 'Plus Jakarta Sans', sans-serif; }
   .brand .tag { font-style: italic; font-size: 10px; color: #64748b; margin-top: 2px; }
   .contact { text-align: right; font-size: 10px; color: #475569; line-height: 1.5; }
   .contact .phone { color: #0f172a; font-weight: 500; }
-  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px 16px; padding: 16px 20px; border-bottom: 1px solid #ece6f3; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px 16px; padding: 16px 20px; border-bottom: 1px solid #e7f5ec; }
   .grid .full { grid-column: 1 / -1; }
   .label { font-size: 10px; text-transform: uppercase; letter-spacing: .08em; color: #64748b; }
   .val { font-weight: 500; color: #0f172a; margin-top: 2px; }
-  .section { padding: 14px 20px; border-bottom: 1px solid #ece6f3; }
-  .section h3 { margin: 0 0 8px; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: #6b21a8; border-bottom: 2px solid #d8b4fe; padding-bottom: 4px; }
+  .section { padding: 14px 20px; border-bottom: 1px solid #e7f5ec; }
+  .section h3 { margin: 0 0 8px; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: #166534; border-bottom: 2px solid #86efac; padding-bottom: 4px; }
   ul { margin: 0; padding-left: 20px; }
   ul li { padding: 2px 0; }
   .notes { white-space: pre-wrap; color: #334155; }
   .signs { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; padding: 30px 20px 20px; }
   .sign { border-top: 1px solid #94a3b8; padding-top: 6px; font-size: 11px; color: #475569; }
-  .foot { background: #f8fafc; padding: 10px 20px; font-size: 9px; color: #64748b; border-top: 2px solid #d8b4fe; text-align: center; }
+  .foot { background: #f8fafc; padding: 10px 20px; font-size: 9px; color: #64748b; border-top: 2px solid #86efac; text-align: center; }
   .foot .row { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 4px; }
   .foot .conf { font-style: italic; color: #94a3b8; }
   @media print { body { padding: 0; } .wrap { border: none; border-radius: 0; } .no-print { display: none; } }
   .toolbar { max-width: 800px; margin: 0 auto 12px; display: flex; justify-content: flex-end; gap: 8px; }
-  .btn { background: #6b21a8; color: white; border: 0; padding: 8px 16px; border-radius: 8px; font-size: 13px; cursor: pointer; font-family: inherit; }
+  .btn { background: #166534; color: white; border: 0; padding: 8px 16px; border-radius: 8px; font-size: 13px; cursor: pointer; font-family: inherit; }
   .btn.secondary { background: #e5e7eb; color: #1e293b; }
 </style>
 </head><body>
@@ -144,8 +144,8 @@ export async function printTestForm(form: DbTestForm) {
       </div>
     </div>
     <div class="contact">
-      <div>Plot 1, Road 4, Udo Layout</div>
-      <div>Rumuokwachi, Port Harcourt</div>
+      <div>5 Elioprawo Road, Big Tree Junction</div>
+      <div>Elioprawo Road, Port Harcourt</div>
       <div class="phone">${escapeHtml(SITE.phones[0])}</div>
       <div>${escapeHtml(SITE.email)}</div>
     </div>

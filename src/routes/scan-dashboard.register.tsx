@@ -5,10 +5,10 @@ import ScanRegisterPage from "@/views/scan/Register";
 export const Route = createFileRoute("/scan-dashboard/register")({
   head: () => ({
     meta: [
-      { title: "Register Scan | Medvic Goodhealth" },
-      { name: "description", content: "Medvic Goodhealth staff area." },
-      { property: "og:title", content: "Register Scan | Medvic Goodhealth" },
-      { property: "og:description", content: "Medvic Goodhealth staff area." },
+      { title: "Register Scan | Green Medical Diagnostics" },
+      { name: "description", content: "Green Medical Diagnostics staff area." },
+      { property: "og:title", content: "Register Scan | Green Medical Diagnostics" },
+      { property: "og:description", content: "Green Medical Diagnostics staff area." },
       { name: "robots", content: "noindex" },
     ],
   }),

@@ -5,10 +5,10 @@ import DashboardPage from "@/views/dashboard/Dashboard";
 export const Route = createFileRoute("/dashboard/")({
   head: () => ({
     meta: [
-      { title: "Dashboard | Medvic Goodhealth" },
-      { name: "description", content: "Medvic Goodhealth staff area." },
-      { property: "og:title", content: "Dashboard | Medvic Goodhealth" },
-      { property: "og:description", content: "Medvic Goodhealth staff area." },
+      { title: "Dashboard | Green Medical Diagnostics" },
+      { name: "description", content: "Green Medical Diagnostics staff area." },
+      { property: "og:title", content: "Dashboard | Green Medical Diagnostics" },
+      { property: "og:description", content: "Green Medical Diagnostics staff area." },
       { name: "robots", content: "noindex" },
     ],
   }),

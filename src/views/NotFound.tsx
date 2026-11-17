@@ -12,8 +12,8 @@ const NotFound = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-muted">
       <SEO
-        title="Page Not Found | Medvic Goodhealth"
-        description="The page you’re looking for doesn’t exist. Return to Medvic Goodhealth Medical Laboratory home."
+        title="Page Not Found | Green Medical Diagnostics"
+        description="The page you’re looking for doesn’t exist. Return to Green Medical Diagnostics and Services home."
       />
       <div className="text-center">
         <h1 className="mb-4 text-4xl font-bold">404</h1>

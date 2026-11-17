@@ -5,10 +5,10 @@ import ScanAppointmentsPage from "@/views/scan/Appointments";
 export const Route = createFileRoute("/scan-dashboard/appointments")({
   head: () => ({
     meta: [
-      { title: "Appointments | Medvic Goodhealth" },
-      { name: "description", content: "Medvic Goodhealth staff area." },
-      { property: "og:title", content: "Appointments | Medvic Goodhealth" },
-      { property: "og:description", content: "Medvic Goodhealth staff area." },
+      { title: "Appointments | Green Medical Diagnostics" },
+      { name: "description", content: "Green Medical Diagnostics staff area." },
+      { property: "og:title", content: "Appointments | Green Medical Diagnostics" },
+      { property: "og:description", content: "Green Medical Diagnostics staff area." },
       { name: "robots", content: "noindex" },
     ],
   }),

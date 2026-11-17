@@ -39,7 +39,7 @@ const Shop = () => {
   return (
     <Layout>
       <SEO
-        title="Shop | Medvic Goodhealth"
+        title="Shop | Green Medical Diagnostics"
         description="Order lab & hospital equipment, reagents, and general merchandise via WhatsApp."
       />
       <PageHeader

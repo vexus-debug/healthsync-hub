@@ -5,10 +5,10 @@ import ScanPatientsPage from "@/views/scan/Patients";
 export const Route = createFileRoute("/scan-dashboard/patients/")({
   head: () => ({
     meta: [
-      { title: "Scan Patients | Medvic Goodhealth" },
-      { name: "description", content: "Medvic Goodhealth staff area." },
-      { property: "og:title", content: "Scan Patients | Medvic Goodhealth" },
-      { property: "og:description", content: "Medvic Goodhealth staff area." },
+      { title: "Scan Patients | Green Medical Diagnostics" },
+      { name: "description", content: "Green Medical Diagnostics staff area." },
+      { property: "og:title", content: "Scan Patients | Green Medical Diagnostics" },
+      { property: "og:description", content: "Green Medical Diagnostics staff area." },
       { name: "robots", content: "noindex" },
     ],
   }),

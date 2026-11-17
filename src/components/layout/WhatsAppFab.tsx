@@ -3,7 +3,7 @@ import { buildWhatsAppLink } from "@/lib/site";
 
 export const WhatsAppFab = () => (
   <a
-    href={buildWhatsAppLink("Hello Medvic Goodhealth, I'd like to make an enquiry.")}
+    href={buildWhatsAppLink("Hello Green Medical Diagnostics, I'd like to make an enquiry.")}
     target="_blank"
     rel="noreferrer"
     aria-label="Chat with us on WhatsApp"

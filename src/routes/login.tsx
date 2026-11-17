@@ -4,10 +4,10 @@ import LoginPage from "@/views/Login";
 export const Route = createFileRoute("/login")({
   head: () => ({
     meta: [
-      { title: "Staff Login | Medvic Goodhealth" },
-      { name: "description", content: "Staff sign-in for Medvic Goodhealth." },
-      { property: "og:title", content: "Staff Login | Medvic Goodhealth" },
-      { property: "og:description", content: "Staff sign-in for Medvic Goodhealth." },
+      { title: "Staff Login | Green Medical Diagnostics" },
+      { name: "description", content: "Staff sign-in for Green Medical Diagnostics." },
+      { property: "og:title", content: "Staff Login | Green Medical Diagnostics" },
+      { property: "og:description", content: "Staff sign-in for Green Medical Diagnostics." },
     ],
   }),
   component: LoginPage,

@@ -20,8 +20,8 @@ const faqs = [
 const FAQs = () => (
   <Layout>
     <SEO
-      title="FAQs | Medvic Goodhealth Medical Laboratory"
-      description="Answers to common questions about confidential lab testing, home sample collection, turnaround times, payments and result delivery at Medvic Goodhealth Port Harcourt."
+      title="FAQs | Green Medical Diagnostics and Services"
+      description="Answers to common questions about confidential lab testing, home sample collection, turnaround times, payments and result delivery at Green Medical Diagnostics Port Harcourt."
       keywords="medical lab FAQs, anonymous lab testing Nigeria, home sample collection Port Harcourt, lab results turnaround"
     />
     <PageHeader

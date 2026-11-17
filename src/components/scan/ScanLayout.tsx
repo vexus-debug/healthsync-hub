@@ -32,7 +32,7 @@ const SidebarBody = ({
 }) => (
   <>
     <div className="h-24 flex items-center gap-2 px-4 border-b border-border">
-      <img src={logo} alt="Medvic" className="h-16 w-auto" />
+      <img src={logo} alt="Green Medical Diagnostics" className="h-16 w-auto" />
       <div className="leading-tight">
         <p className="text-[10px] uppercase tracking-wider text-muted-foreground">Scan Dashboard</p>
       </div>

@@ -4,10 +4,10 @@ import ShopPage from "@/views/Shop";
 export const Route = createFileRoute("/shop")({
   head: () => ({
     meta: [
-      { title: "Shop | Medvic Goodhealth" },
-      { name: "description", content: "Health products from Medvic Goodhealth." },
-      { property: "og:title", content: "Shop | Medvic Goodhealth" },
-      { property: "og:description", content: "Health products from Medvic Goodhealth." },
+      { title: "Shop | Green Medical Diagnostics" },
+      { name: "description", content: "Health products from Green Medical Diagnostics." },
+      { property: "og:title", content: "Shop | Green Medical Diagnostics" },
+      { property: "og:description", content: "Health products from Green Medical Diagnostics." },
     ],
   }),
   component: ShopPage,

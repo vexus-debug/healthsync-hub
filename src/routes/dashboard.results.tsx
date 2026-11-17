@@ -5,10 +5,10 @@ import ResultsSearchPage from "@/views/dashboard/ResultsSearch";
 export const Route = createFileRoute("/dashboard/results")({
   head: () => ({
     meta: [
-      { title: "Results Search | Medvic Goodhealth" },
-      { name: "description", content: "Medvic Goodhealth staff area." },
-      { property: "og:title", content: "Results Search | Medvic Goodhealth" },
-      { property: "og:description", content: "Medvic Goodhealth staff area." },
+      { title: "Results Search | Green Medical Diagnostics" },
+      { name: "description", content: "Green Medical Diagnostics staff area." },
+      { property: "og:title", content: "Results Search | Green Medical Diagnostics" },
+      { property: "og:description", content: "Green Medical Diagnostics staff area." },
       { name: "robots", content: "noindex" },
     ],
   }),
