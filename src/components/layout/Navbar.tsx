@@ -40,7 +40,7 @@ export const Navbar = () => {
     >
       <div className="container flex h-20 items-center justify-between">
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <img src={logo} alt="Green Medical Diagnostics and Services logo" className="h-20 md:h-28 w-auto" />
+          <img src={logo} alt="Green Medical Diagnostics and Services logo" className="h-14 md:h-16 w-auto" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">

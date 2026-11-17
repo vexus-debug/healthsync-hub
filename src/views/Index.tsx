@@ -161,7 +161,7 @@ const Index = () => {
             </div>
 
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight">
-              Diagnostics you can <span className="italic font-medium text-accent">trust</span>,
+              Diagnostics you can <span className="italic font-medium text-primary-glow">trust</span>,
               <br className="hidden sm:block" /> care that respects your privacy.
             </h1>
 
