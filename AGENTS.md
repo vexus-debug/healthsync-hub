@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Imported pages live in `src/views/` and are mounted by thin route files in `src/routes/`; they navigate through `@/lib/router-compat` (react-router-style API on TanStack Router) so the imported code stays unchanged.
+- The root route uses `ssr: false` because the imported app depends on browser-only APIs at render time.
