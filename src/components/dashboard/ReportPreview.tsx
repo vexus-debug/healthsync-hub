@@ -24,7 +24,7 @@ export const ReportPreview = ({ form, values, scientistName, dynamicRows = [] }:
             </div>
           </div>
           <div className="text-right text-[10px] text-slate-600 leading-snug max-w-[40%]">
-            <p>Plot 1, Road 4, Udo Layout</p>
+            <p>5 Elioprawo Road, Big Tree Junction</p>
             <p>Elioprawo Road, Port Harcourt</p>
             <p className="font-medium text-slate-800">{SITE.phones[0]}</p>
             <p>{SITE.email}</p>
